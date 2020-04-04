@@ -31,7 +31,6 @@ exports.avg = function avg(array) {
     else {
         let summ = 0;
         array.forEach(item => summ += item);
-        console.log(summ / array.length);
         return summ / array.length;
     }
 }
